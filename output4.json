@@ -1,0 +1,65 @@
+{
+  "feasible": true,
+  "placements": [
+    {
+      "name": "fridge",
+      "center": [
+        183543.59,
+        31262.38
+      ],
+      "width": 1330,
+      "height": 1220,
+      "rotation": 90
+    },
+    {
+      "name": "shelf-1",
+      "center": [
+        184568.59,
+        31147.07
+      ],
+      "width": 400,
+      "height": 1000,
+      "rotation": 90
+    },
+    {
+      "name": "shelf-2",
+      "center": [
+        183378.59,
+        30330.6
+      ],
+      "width": 1000,
+      "height": 400,
+      "rotation": 0
+    },
+    {
+      "name": "overShelf-1",
+      "center": [
+        184168.59,
+        30239.69
+      ],
+      "width": 400,
+      "height": 600,
+      "rotation": 90
+    },
+    {
+      "name": "overShelf-2",
+      "center": [
+        183084.7,
+        32797.72
+      ],
+      "width": 400,
+      "height": 600,
+      "rotation": 90
+    },
+    {
+      "name": "overShelf-3",
+      "center": [
+        184562.48,
+        32797.72
+      ],
+      "width": 400,
+      "height": 600,
+      "rotation": 90
+    }
+  ]
+}

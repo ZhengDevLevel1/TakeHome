@@ -1,0 +1,85 @@
+{
+  "feasible": true,
+  "placements": [
+    {
+      "name": "fridge",
+      "center": [
+        6508.1,
+        30985.56
+      ],
+      "width": 1220,
+      "height": 1330,
+      "rotation": 0
+    },
+    {
+      "name": "iceMaker",
+      "center": [
+        6684.36,
+        29805.8
+      ],
+      "width": 850,
+      "height": 760,
+      "rotation": 90
+    },
+    {
+      "name": "shelf-1",
+      "center": [
+        6620.52,
+        32309.73
+      ],
+      "width": 1000,
+      "height": 400,
+      "rotation": 0
+    },
+    {
+      "name": "shelf-2",
+      "center": [
+        5297.82,
+        31315.65
+      ],
+      "width": 1000,
+      "height": 400,
+      "rotation": 0
+    },
+    {
+      "name": "shelf-3",
+      "center": [
+        5459.17,
+        30020.39
+      ],
+      "width": 400,
+      "height": 1000,
+      "rotation": 90
+    },
+    {
+      "name": "overShelf-1",
+      "center": [
+        6065.15,
+        29042.55
+      ],
+      "width": 400,
+      "height": 600,
+      "rotation": 90
+    },
+    {
+      "name": "overShelf-2",
+      "center": [
+        5861.13,
+        31955.01
+      ],
+      "width": 400,
+      "height": 600,
+      "rotation": 90
+    },
+    {
+      "name": "overShelf-3",
+      "center": [
+        6417.03,
+        31881.52
+      ],
+      "width": 600,
+      "height": 400,
+      "rotation": 0
+    }
+  ]
+}
