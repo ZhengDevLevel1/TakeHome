@@ -65,10 +65,14 @@ success, placements = solve("example1.json")
 - 输出：**FEASIBLE** - 全部8个物品成功放置
 - 冰箱中心：(6508.10, 30985.56)，旋转0°
 
+![Example1 CAD平面布置图](image01.png)
+
 ### Example 2
 - 输入：8个物品（1冰箱 + 4货架 + 3离地架）
 - 输出：**FEASIBLE** - 全部8个物品成功放置
 - 冰箱中心：(29608.39, 34296.83)，旋转0°
+
+![Example2 CAD平面布置图](image02.png)
 
 ### Example 3
 - 输入：9个物品（1冰箱 + 5货架 + 3离地架），含内开门
@@ -76,22 +80,31 @@ success, placements = solve("example1.json")
 - 内开门门宽700mm，产生700×700mm障碍区域
 - 冰箱中心：(56578.29, 36100.24)，旋转90°
 
+![Example3 CAD平面布置图](image03.png)
+
 ### Example 4
 - 输入：6个物品（1冰箱 + 2货架 + 3离地架）
 - 输出：**FEASIBLE** - 全部6个物品成功放置
 - 冰箱中心：(183543.59, 31262.38)，旋转90°
 
+![Example4 CAD平面布置图](image04.png)
+
 ## 文件结构
 ```
 居灵-TakeHome工程题/
-├── solver.py          # 核心算法代码
-├── example1.json      # 输入示例1
-├── example2.json      # 输入示例2
-├── example3.json      # 输入示例3
-├── example4.json      # 输入示例4
-├── output1.json       # 输出结果1
-├── output2.json       # 输出结果2
-├── output3.json       # 输出结果3
-├── output4.json       # 输出结果4
-└── README.md          # 本文档
+├── solver.py              # 核心算法代码
+├── README.md              # 本文档
+├── example1.json          # 输入示例1
+├── example2.json          # 输入示例2
+├── example3.json          # 输入示例3
+├── example4.json          # 输入示例4
+├── image01.png            # Example1 CAD平面布置图
+├── image02.png            # Example2 CAD平面布置图
+├── image03.png            # Example3 CAD平面布置图
+├── image04.png            # Example4 CAD平面布置图
+└── 输出示例/                # 输出结果目录
+    ├── output1.json
+    ├── output2.json
+    ├── output3.json
+    └── output4.json
 ```

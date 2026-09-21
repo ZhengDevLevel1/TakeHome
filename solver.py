@@ -549,6 +549,8 @@ def format_output(success: bool, placements: List) -> dict:
 
 if __name__ == '__main__':
     base_dir = os.path.dirname(os.path.abspath(__file__))
+    output_dir = os.path.join(base_dir, '输出示例')
+    os.makedirs(output_dir, exist_ok=True)
 
     all_results = []
     for i in range(1, 5):
@@ -558,7 +560,7 @@ if __name__ == '__main__':
             result = format_output(success, placements)
             all_results.append((file_path, result))
 
-            output_path = os.path.join(base_dir, f'output{i}.json')
+            output_path = os.path.join(output_dir, f'output{i}.json')
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(result, f, indent=2, ensure_ascii=False)
             print(f"Output saved to {output_path}")
