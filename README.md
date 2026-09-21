@@ -65,14 +65,14 @@ success, placements = solve("example1.json")
 - 输出：**FEASIBLE** - 全部8个物品成功放置
 - 冰箱中心：(6508.10, 30985.56)，旋转0°
 
-<img src="输入示例/image01.png" width="600" alt="Example1 CAD平面布置图">
+<img src="输入示例/image01.png" width="400" alt="Example1 CAD平面布置图">
 
 ### Example 2
 - 输入：8个物品（1冰箱 + 4货架 + 3离地架）
 - 输出：**FEASIBLE** - 全部8个物品成功放置
 - 冰箱中心：(29608.39, 34296.83)，旋转0°
 
-<img src="输入示例/image02.png" width="600" alt="Example2 CAD平面布置图">
+<img src="输入示例/image02.png" width="400" alt="Example2 CAD平面布置图">
 
 ### Example 3
 - 输入：9个物品（1冰箱 + 5货架 + 3离地架），含内开门
@@ -80,14 +80,14 @@ success, placements = solve("example1.json")
 - 内开门门宽700mm，产生700×700mm障碍区域
 - 冰箱中心：(56578.29, 36100.24)，旋转90°
 
-<img src="输入示例/image03.png" width="600" alt="Example3 CAD平面布置图">
+<img src="输入示例/image03.png" width="400" alt="Example3 CAD平面布置图">
 
 ### Example 4
 - 输入：6个物品（1冰箱 + 2货架 + 3离地架）
 - 输出：**FEASIBLE** - 全部6个物品成功放置
 - 冰箱中心：(183543.59, 31262.38)，旋转90°
 
-<img src="输入示例/image04.png" width="600" alt="Example4 CAD平面布置图">
+<img src="输入示例/image04.png" width="400" alt="Example4 CAD平面布置图">
 
 ## 文件结构
 ```
