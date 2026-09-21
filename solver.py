@@ -554,7 +554,7 @@ if __name__ == '__main__':
 
     all_results = []
     for i in range(1, 5):
-        file_path = os.path.join(base_dir, f'example{i}.json')
+        file_path = os.path.join(base_dir, '输入示例', f'example{i}.json')
         if os.path.exists(file_path):
             success, placements = solve(file_path)
             result = format_output(success, placements)
